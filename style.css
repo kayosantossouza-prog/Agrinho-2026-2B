@@ -1,0 +1,110 @@
+/* Configurações Gerais / Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f5;
+    color: #2c3e50;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho (Header) */
+header {
+    background: linear-gradient(135deg, #1e4d2b, #2e7d32);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 5px solid #81c784;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* Conteúdo Principal e Cards */
+main {
+    padding: 30px 0;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-left: 5px solid #2e7d32;
+}
+
+.conclusao {
+    border-left: 5px solid #81c784;
+    background-color: #e8f5e9;
+}
+
+/* Tipografia Interna */
+h2 {
+    color: #1e4d2b;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+h3 {
+    color: #2e7d32;
+    margin: 20px 0 10px 0;
+    font-size: 1.2rem;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Listas */
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Bloco de Destaque */
+.destaque {
+    background-color: #f1f8e9;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    border: 1px dashed #c5e1a5;
+}
+
+.destaque h4 {
+    color: #33691e;
+    margin-bottom: 10px;
+}
+
+/* Rodapé (Footer) */
+footer {
+    background-color: #1e4d2b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
